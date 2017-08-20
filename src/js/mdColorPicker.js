@@ -886,6 +886,7 @@ angular.module('mdColorPicker', [])
                 dialog = $mdDialog.show({
 					templateUrl: 'mdColorPickerDialog.tpl.html',
 					hasBackdrop: options.hasBackdrop,
+					multiple: true,
 					clickOutsideToClose: options.clickOutsideToClose,
 
 					controller: ['$scope', 'options', function( $scope, options ) {
