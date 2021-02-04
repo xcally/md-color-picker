@@ -1,8 +1,6 @@
 # md-color-picker
 Angular-Material based color picker with no jQuery or other DOM/utility library dependencies.
 
-[![NPM version](https://badge-me.herokuapp.com/api/npm/md-color-picker.png)](http://badges.enytc.com/for/npm/md-color-picker)
-[![BOWER version](https://badge-me.herokuapp.com/api/bower/brianpkelley/md-color-picker.png)](http://badges.enytc.com/for/bower/brianpkelley/md-color-picker)
 [![Build Status](https://travis-ci.org/brianpkelley/md-color-picker.svg?branch=develop)](https://travis-ci.org/brianpkelley/md-color-picker)
 
 ![preview](https://raw.githubusercontent.com/brianpkelley/md-color-picker/master/md-color-picker-2.png)
@@ -16,12 +14,7 @@ Try out the demo here: **[GitHub Page](http://brianpkelley.github.io/md-color-pi
 1. Download [tinycolor.js](https://github.com/bgrins/TinyColor) 1.2.1 or higher. Other versions may work, though 1.2.1 was used to develop this.
 2. Install `md-color-picker`.
 ```bash
-npm install md-color-picker
-```
-
-#### Bower (includes tinycolor.js):
-```bash
-bower install md-color-picker
+npm install @xenialab/md-color-picker
 ```
 
 ## Angular dependencies
